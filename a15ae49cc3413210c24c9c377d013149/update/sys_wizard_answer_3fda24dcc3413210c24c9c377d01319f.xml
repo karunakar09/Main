@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>New Hardware Requests</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Hardware Requests</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">a734e77b04312210559073c06a02f70f</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-02 07:49:43</sys_created_on>
+        <sys_id>3fda24dcc3413210c24c9c377d01319f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hardware Requests</sys_name>
+        <sys_package display_value="Hardware Requests" source="x_775433_hardwar_0">a15ae49cc3413210c24c9c377d013149</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hardware Requests">a15ae49cc3413210c24c9c377d013149</sys_scope>
+        <sys_update_name>sys_wizard_answer_3fda24dcc3413210c24c9c377d01319f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-02 07:49:43</sys_updated_on>
+        <table/>
+        <target_url>x_775433_hardwar_0_hardware_requests.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>
