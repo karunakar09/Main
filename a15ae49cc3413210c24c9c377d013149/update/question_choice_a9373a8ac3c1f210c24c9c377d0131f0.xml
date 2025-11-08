@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Hardware">42d6728ac3c1f210c24c9c377d01311e</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-08 04:32:28</sys_created_on>
+        <sys_id>a9373a8ac3c1f210c24c9c377d0131f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mouse</sys_name>
+        <sys_package display_value="Hardware Requests" source="x_775433_hardwar_0">a15ae49cc3413210c24c9c377d013149</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hardware Requests">a15ae49cc3413210c24c9c377d013149</sys_scope>
+        <sys_update_name>question_choice_a9373a8ac3c1f210c24c9c377d0131f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-08 04:32:28</sys_updated_on>
+        <text>Mouse</text>
+        <value>mouse</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=a9373a8ac3c1f210c24c9c377d0131f0"/>
+</record_update>

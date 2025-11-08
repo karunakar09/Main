@@ -1,3 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="b7da24dcc3413210c24c9c377d01317e" extends="task" label="Hardware Requests" max_length="40" name="x_775433_hardwar_0_hardware_requests" type="collection"/>
+    <element db_object_id="b7da24dcc3413210c24c9c377d01317e" extends="task" label="Hardware Requests" max_length="40" name="x_775433_hardwar_0_hardware_requests" type="collection">
+        <element attributes="encode_utf8=false" label="Requested For" mandatory="true" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="laptop" label="Hardware" mandatory="true" max_length="40" name="hardwre" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Keyboard" sequence="4" value="keyboard"/>
+                <element inactive_on_update="false" label="Speakers" sequence="6" value="speakers"/>
+                <element inactive_on_update="false" label="Router" sequence="5" value="router"/>
+                <element inactive_on_update="false" label="Monitor" sequence="1" value="monitor"/>
+                <element inactive_on_update="false" label="Mouse" sequence="3" value="mouse"/>
+                <element inactive_on_update="false" label="CPU" sequence="2" value="cpu"/>
+                <element inactive_on_update="false" label="Laptop" sequence="0" value="laptop"/>
+            </choice>
+        </element>
+    </element>
 </database>

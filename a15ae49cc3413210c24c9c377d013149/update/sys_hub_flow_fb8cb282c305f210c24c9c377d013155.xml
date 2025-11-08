@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>labelCacheCleanUpExecuted=true</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>hardware_request</internal_name>
+        <label_cache>[{"name":"Service Catalog_1.request_item.cat_item","label":"Trigger - Service Catalog➛Requested Item Record➛Item","reference":"sc_cat_item","reference_display":"Item","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"cat_item","choices":[{"label":null,"value":null,"order":0.0}],"usedInstances":{"d6f20091-7b9d-4e9b-acfe-afc6bbee078f":["condition"]},"attributes":null},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator","reference":"sys_user","reference_display":null,"type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":[{"label":null,"value":null,"order":0.0}],"usedInstances":{"b5fc4a55-4087-4f49-9ba4-e0fd227816f4":["approval_conditions"]},"attributes":null},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":[{"label":null,"value":null,"order":0.0}],"usedInstances":{"b5fc4a55-4087-4f49-9ba4-e0fd227816f4":["record"],"9b9e2d78-f00d-4b0b-80cd-8c1ab7e3c68a":["record"]},"attributes":{"default_search_field":"number"}},{"name":"b5fc4a55-4087-4f49-9ba4-e0fd227816f4.approval_state","label":"1➛Approval State","reference":null,"reference_display":"Approval State","type":"choice","base_type":"choice","parent_table_name":null,"column_name":null,"choices":[{"label":null,"value":null,"order":0}],"usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Hardware request</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-08 04:55:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fb8cb282c305f210c24c9c377d013155</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>Hardware request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hardware Requests" source="x_775433_hardwar_0">a15ae49cc3413210c24c9c377d013149</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hardware Requests">a15ae49cc3413210c24c9c377d013149</sys_scope>
+        <sys_update_name>sys_hub_flow_fb8cb282c305f210c24c9c377d013155</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-08 05:01:31</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record display_value="Created 2025-11-07 21:01:22">58ed7606c305f210c24c9c377d01311e</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=fb8cb282c305f210c24c9c377d013155"/>
+    <sys_variable_value action="delete_multiple" query="document_key=fb8cb282c305f210c24c9c377d013155"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=fb8cb282c305f210c24c9c377d013155"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=fb8cb282c305f210c24c9c377d013155^sys_idNOT INb38cb282c305f210c24c9c377d013158"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>fb8cb282c305f210c24c9c377d013155</id>
+        <name>Hardware request</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-08 04:55:36</sys_created_on>
+        <sys_id>b38cb282c305f210c24c9c377d013158</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-08 04:55:36</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=b38cb282c305f210c24c9c377d013158"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=fb8cb282c305f210c24c9c377d013155^sys_idNOT IN42cc3a82c305f210c24c9c377d01318f,71cc3a82c305f210c24c9c377d013166"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Hardware request">fb8cb282c305f210c24c9c377d013155</model>
+        <model_id>fb8cb282c305f210c24c9c377d013155</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_fb8cb282c305f210c24c9c377d013155</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-08 04:56:34</sys_created_on>
+        <sys_id>42cc3a82c305f210c24c9c377d01318f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hardware Requests">a15ae49cc3413210c24c9c377d013149</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-08 04:56:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=42cc3a82c305f210c24c9c377d01318f"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Hardware request">fb8cb282c305f210c24c9c377d013155</model>
+        <model_id>fb8cb282c305f210c24c9c377d013155</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_fb8cb282c305f210c24c9c377d013155</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-08 04:56:34</sys_created_on>
+        <sys_id>71cc3a82c305f210c24c9c377d013166</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Hardware Requests">a15ae49cc3413210c24c9c377d013149</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-08 04:56:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=71cc3a82c305f210c24c9c377d013166"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=fb8cb282c305f210c24c9c377d013155"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fb8cb282c305f210c24c9c377d013155"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=fb8cb282c305f210c24c9c377d013155^sys_idNOT INa1ccf682c305f210c24c9c377d013180"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Hardware request">fb8cb282c305f210c24c9c377d013155</flow>
+        <generation_source/>
+        <name>Service Catalog</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-08 04:56:33</sys_created_on>
+        <sys_id>a1ccf682c305f210c24c9c377d013180</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-08 04:56:33</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/61UTW/bMAz9K4FOG5CDk6zNmtuQoUCAbAWarpdiMBiJToTKkifJbrOg/31k/BF3M4YB3SkSTfI9Pj7l4SgMbNGIhbgt7ejauKfRyoqx0Dait2DuDgXSR7l3WiLF68NahygWD0eR3YMpOSFzHnfelVZRUrbu9cy4p6bfVxmrHHZcx+cNGpQRlVhkYAJS5Fvo377oELTdNYGXcQ92C/Lx77DnjNE7hRmUJr5/I4HvY5GDVRCdP5yTvMvvMC8MROyCziv0YjFJkrGomPLmEFaqRrWQM74vbcpcU82yV81cdFQ6ULPD/Tki99ooj5aUJwoFeOoQuf+xW9da28ehZM2gl8lVIufTq/l8msxmSZJdbDOZSTn/OEkuJxdXVDVshkGq8Tdn8L1dwLIN9gXA54hW9XT9U0SPoG6sOQf2NFg9Tw7PQf8kxA8J52VIs8lGmO6aNqI1e/0METbRlzKWvtOQmYWTec2/26Ua8lszXMKOHOr1yvHV0ENp5WFLNWjL/09w8maCUyZYS3dTRO3IVWLGO4et4ZpwCLUzPEoqSaPXux0VUpEzZW6/DhmoYd8zeBlog1iwS3jt7cva7N3Tbbvia21PlJqPxkkw3Q0iIW/LyPodBagKqIKtTyZA8TJmoksDITSEau+kP0rucXp0LXp6mvFUIr0u4icZdYXdP8AvVvv7+TgFAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=fb8cb282c305f210c24c9c377d013155^sys_idNOT INb48d7ac2c305f210c24c9c377d013168"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Hardware request">fb8cb282c305f210c24c9c377d013155</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-08 04:59:46</sys_created_on>
+        <sys_id>b48d7ac2c305f210c24c9c377d013168</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Hardware Requests">a15ae49cc3413210c24c9c377d013149</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-08 05:00:54</sys_updated_on>
+        <ui_id>b5fc4a55-4087-4f49-9ba4-e0fd227816f4</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YXW/aMBT9KyjPlDnkg9C3qqhSp31IbbeXqooc+6Z4MgmLnW4M8d93Ezskg5bByqR16ktV32s7x8fn2NfcLh3BnVMH/NAL8M8o9Yg7dEkEYRSxMaEsCsPA95y+k9EZYE86nxf5A5VxAVTlGSawUVYZ/JcLNZd08bmNsKmQvIDMOb296ztzWuAsGgrndLmR2heGpAlI7HpmcfSuGhxPAtSLeZVQuhDZvW2/s9NcN8G84BWsYd+B7xoyDognpVJB35nRjFOdF4t1BKfmHzPZBqYi02bBM/pdiR/4PTckVccUcInMsrFuxpYpE04nVFNEUjJdFmvicsFAGXI4pLSU+rwbMx0+zrXARdZDNE1kMzqX5Sz7YBhx1hN0NqZUCALm1Uor6HYd6fU0/3bVoLwQWU2KTcqcUbluUY3UJaWu8CydUtw8xipImOH88Qx3BSNxtTWinhMhzgb3EhuDVObfEIsS99mAsmo9A+SbDi4wPqnDn2khqsW9x2lwcN9+rruppfiUia8lXFY6CodJOCYRP+EpSU78yAtOKANyAqEbQMBDFries+o7aqHOJVWqJQp3KP5aVss0tFmCYsNxNYQVYq7PEOYDWC5Wfesi4qZDGI+HJHEJ8QiJAkYiDxJvFI48yqNHRJoKkLxjoiaxbaZO5jBT7YFqy1QXFtZTcK2l6mZcd/rVVvX43geTOLq1IkJekrfw48+x1t/x0OHqNxT8xgJsp9igc5F8ycsi2+GAeCpUrYwnndDpcZgj9gDZOOKtQblpiE3wf+IH79UP/78fRtEuqTHSSqoAhsLoGGG5vIbiAXnvnSNymd/H7qAAvOKUjoWG2Wp1hIprD3yNFa4agJuArfh5zsp6YwTfUP/EZnqXk1b+ZLf8jUj2Ub83fNX+P6l9FuzSVjpupcRLJIlqOO5rYo/vN9qelNCbGADbkJr3A5sCL6UJx1psHfLXtkM905sb0T3sg6Md9v5LOuqf/6yI13Uvqg7N89ceFcd/Dvg79Qcdsa0rGpZnXFRgVccKpioHdZYtPt0ul0pTLdggjNwwHY0ZIzQibugTlwXU8xIgfgK+765Wd9sees5Uh5lvj8WvLxb0jPodGdaE7eveDuoasP1NwCat+fxjXTUvrNB6rvteitEStrOIYa22DJuttRSLsaSqy6lts1yZYgt479LkD3PAHqgaB9xYWBsorebr5mOvinrYxqvCPfCiMeJ/VOuvSv9nlH73EyLCglapFQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b48d7ac2c305f210c24c9c377d013168"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=fb8cb282c305f210c24c9c377d013155"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=fb8cb282c305f210c24c9c377d013155^sys_idNOT IN51ddf206c305f210c24c9c377d013145"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">59ddf206c305f210c24c9c377d013144</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Hardware request">fb8cb282c305f210c24c9c377d013155</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-08 05:01:10</sys_created_on>
+        <sys_id>51ddf206c305f210c24c9c377d013145</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Hardware Requests">a15ae49cc3413210c24c9c377d013149</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-08 05:01:21</sys_updated_on>
+        <ui_id>f61893f1-dec8-4f4a-be40-ccec31447843</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8lYJnW9DTsX0LHAQo0DZAE+TSBsKKj5goJaokFUc1/O9d6mEbiYs6aI69mcPd5cxwaG2JblzdOHunL62VjxVZfnuYEFl5DH9viWRkSRaQiSwKM5rEsyQOw3ieRsUsKaKYJcDTGZmQCkqOlVRXTDqpK4SeQDUe226LTNAUsmyahvOLaSrSxXRRQDrloWBxfDGPZiINoK6Nxp7cOnB8t/vehGHCepQznMekrRW09+88lq6lYoYP0mswqMRxQ5bbF1vnWqGg4ApLV0denLDHtbWHrDOyehzWn4bW2xHUhnkqcTgh/NnxiiHlpQBl+YSUUDFw2rRk6UyDgOHAbirV7ivWsnI4jfjaZyt/cT8pDH2l4KiL8n53v8wHj3tYXIEDpNJQ15ihlK61pNz2jjAuoFFudYz1BTd1p7JrcVCosVurpqy+9GaQ/YDxShFpLJLgtVfquQ9CxO1ab76OLK9l1bkybCpNQe1X4NC7onGez5ZwxUsclJd44eho7m9dds3IpQweFS4CofQGD/X5D4B64gEaC8E14lcdfA9GehWfcQw2YxZsbqmR9aitO5zsJsS2dqXA2oNGNDf/2XiGveJBW97b41u6QZd48BMfZOwmw8sTIYhoQaPTcYPkRLTyDjg8v9cv582hP4PFq9B/6LP8Z35vyX/0l/wPyFkPIMv+5/+f8+9pFmAlzbtvBY7zf0Hv+AAefID7Q/dmU2mR253HPo5fKL/RYqIkPYY22vzwqg7Y7jfFhKKR6wYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=fb8cb282c305f210c24c9c377d013155"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=fb8cb282c305f210c24c9c377d013155"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fb8cb282c305f210c24c9c377d013155</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-08 04:56:34</sys_created_on>
+        <sys_id>06cc3a82c305f210c24c9c377d01318c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hardware Requests" source="x_775433_hardwar_0">a15ae49cc3413210c24c9c377d013149</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hardware Requests">a15ae49cc3413210c24c9c377d013149</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-08 04:56:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fb8cb282c305f210c24c9c377d013155</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-08 04:56:34</sys_created_on>
+        <sys_id>4ecc3a82c305f210c24c9c377d0131b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Hardware Requests" source="x_775433_hardwar_0">a15ae49cc3413210c24c9c377d013149</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hardware Requests">a15ae49cc3413210c24c9c377d013149</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-08 04:56:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_fb8cb282c305f210c24c9c377d013155"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_fb8cb282c305f210c24c9c377d013155"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=fb8cb282c305f210c24c9c377d013155"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=fb8cb282c305f210c24c9c377d013155"/>
+</record_update>
